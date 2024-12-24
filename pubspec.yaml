@@ -1,0 +1,34 @@
+name: Grand_Renggali_Hotel
+description: A new Flutter project.
+
+publish_to: 'none' # This is so that the package won't be published to pub.dev.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Tambahkan dependensi utama di bawah ini
+  google_fonts: ^6.2.1
+  http: ^1.0.0
+
+  # Tambahkan dependensi Flutter lainnya di sini
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Untuk analisis kode
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Deklarasi folder assets
+  assets:
+    - assets/hotelrenggali.jpg
