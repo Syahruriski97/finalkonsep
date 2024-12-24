@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kyriad_muraya/screens/home_screen.dart';
-import 'package:kyriad_muraya/screens/booking_screen.dart';
-import 'package:kyriad_muraya/screens/contact_screen.dart';
+import 'package:grand_renggali/screens/home_screen.dart';
+import 'package:grand_renggali/screens/booking_screen.dart';
+import 'package:grand_renggali/screens/contact_screen.dart';
 
 void main() {
   testWidgets('HomeScreen loads correctly', (WidgetTester tester) async {
@@ -40,7 +40,7 @@ void main() {
 
     // Memeriksa apakah informasi kontak ditampilkan
     expect(find.text('Informasi Kontak'), findsOneWidget);
-    expect(find.text('Alamat: Jl. Panglima Nyak Makam, Banda Aceh'), findsOneWidget);
+    expect(find.text('Alamat: Danau, Kabupaten Aceh Tengah, Aceh 24519'), findsOneWidget);
     expect(find.text('Telepon: (0651) 123456'), findsOneWidget);
 
     // Memeriksa apakah form input ditampilkan
